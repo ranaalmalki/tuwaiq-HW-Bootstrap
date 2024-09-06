@@ -2,16 +2,34 @@
     background-color: aquamarine;
 }
 .container{
-    height: 100%;;
-    width: 100%;
-    background-color: aqua;
- 
+    
+  
+ background-color: rgba(0,0, 0, 0.4);
+}
+.nav-barlight a{
+    color: #f1f4f7;
+}
+.nav-barlight img{
+    filter: brightness(0) invert(1)
 }
 
 .header-content{
    
     text-align: center;
+    
 
+}
+.header-content h1{
+    font-size: 50px;
+    color: #ffff;
+    margin-bottom: 50px;
+
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
 .radius-10 {
     border-radius: 10px !important;
@@ -19,4 +37,25 @@
 
 .border-color{
     border-right: 10px solid red !important;
+}
+.background-light-blue{
+    background-color:    #f1f4f7    ;
+}
+.circle-icon{
+background-color: #54b9bc  ;
+border-radius: 2em;
+padding: 1rem;
+color: #f1f4f7;
+}
+.background-purble{
+    background-color: #4e3797;
+}
+
+.card-body h3{
+    color: #54b9bc;
+}
+.title-num-academy{
+    color: #4e3797;
+    font-weight: bold;
+    font-size: 30px;
 }
