@@ -5,6 +5,9 @@
   
  background-color: rgba(0,0, 0, 0.4);
 }
+.partner-bg{
+    background-color: #f1f4f7;
+}
 .nav-barlight a{
     color: #f1f4f7;
 }
@@ -59,4 +62,16 @@ color: #f1f4f7;
     color: #4e3797;
     font-weight: bold;
     font-size: 30px;
+}
+
+.partner-content .card{
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-size{
+
+width: 10%;
+
 }
