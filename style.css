@@ -11,5 +11,12 @@
 .header-content{
    
     text-align: center;
-    
+
+}
+.radius-10 {
+    border-radius: 10px !important;
+}
+
+.border-color{
+    border-right: 10px solid red !important;
 }
