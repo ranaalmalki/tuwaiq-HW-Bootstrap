@@ -1,7 +1,7 @@
 .back{
     background-color: aquamarine;
 }
-.container{
+.position-relative{
   
  background-color: rgba(0,0, 0, 0.4);
 }
@@ -74,4 +74,21 @@ color: #f1f4f7;
 
 width: 10%;
 
+}
+
+
+.email-content{
+    background-color: #5BBEC1;
+
+}
+.footer-content{
+    background-color: #4e3797;
+    color: #f1f4f7;
+    align-items: center;
+}
+.footer-content img {
+    filter: brightness(0) invert(1);
+}
+.list-footer a{
+    color: #f1f4f7;
 }
