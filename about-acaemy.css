@@ -26,5 +26,23 @@ background-color: #4e3797;
 padding: 1rem;
 
 }
+.first .first-block{
+    background-color: #d3f5d5;
+    text-align: right;
+    border-radius: 2rem;
+}
+.first .second-block{
+    background-color: #bed9ff;
+    text-align: right;
+    border-radius: 2rem;
+
+
+}
+.first .third-block{
+    background-color: #e3d8ff;
+    text-align: right;
+    border-radius: 2rem;
+
+}
 
 /*End footer section*/
