@@ -12,8 +12,8 @@
 </head>
 
 <body>
-<div class="container">
-    <header class="container position-relative " >
+<div class="container ">
+    <header class="container position-relative pb-5" >
 
         <nav class="navbar navbar-expand-lg nav-barlight ">
             <a class="navbar-brand" href="https://tuwaiq.edu.sa/"><img src="/tuwaiq-HW-Bootstrap/image/logo-navbar.png"
@@ -29,11 +29,11 @@
                     <li class=" nav-item"> <a class="  nav-link"
                             href="https://tuwaiq.edu.sa/bootcamps?category=ac41152d-f228-8af4-8406-e0cda6df6c35&type=NORMAL">المعسكرات
                             والبرامج</a></li>
-                    <li class=" nav-item"><a class=" nav-link" href="">حول الأكاديمية</a></li>
+                    <li class=" nav-item"><a class=" nav-link " href="#">حول الأكاديمية</a></li>
                     <li class=" nav-item dropdown">
-                        <a class=" nav-link dropdown-toggle" href="#" id="navbarDropdown " role="button"
+                        <a class=" nav-link dropdown-toggle " href="#" id="navbarDropdown " role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">الأكاديميات التابعة</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="dropdown-menu nav-academy" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="https://developeracademy.tuwaiq.edu.sa/">أكاديمية مطوري
                                 آبل</a>
                             <a class="dropdown-item" href="https://metaverse.tuwaiq.edu.sa/">أكاديمية ميتافيرس</a>
@@ -53,19 +53,19 @@
 
         </nav>
 
-        <div class="header-content">
+        <div class="header-content d-flex flex-column align-items-center ">
             <video autoplay loop muted height="100%" width="100%" class="background-clip">
                 <source src="/tuwaiq-HW-Bootstrap/image/tuwaiq-video.mp4">
             </video>
-            <h1>تعلم تقنيات المستقبل</h1>
-            <button type="button" class="btn btn-info ">ابدأ الان</button>
+            <h1 class="">تعلم تقنيات المستقبل</h1>
+            <button type="button" class="btn btn-info mb-5">ابدأ الان</button>
         </div>
     </header>
 
     <main>
         <div class="container background-light-blue p-4 text-center">
             <h3>المعسكرات والبرامج</h3>
-            <div class="card-deck text-right">
+            <div class="card-deck text-right p-4">
                 <div class="card radius-10 border-start border-0 ">
                     <div class="card-body">
                         <h5 class="card-title">تحدي</h5>
@@ -89,16 +89,20 @@
 
                 </div>
             </div>
+            <div class="button-color p-2">
+                <button type="button" class="btn btn-primary">تعلم عن بعد</button>  
+
+            </div>
         </div>
 
-        <div class="container bg-white overflow-hidden
+        <div class="container bg-white overflow-hidden text-center p-3
         ">
 
             <h1>أرقام الأكاديمية</h1>
-            <div class="row ">
+            <div class="row p-2">
                 <div class="col-3 ">
                     <div class=" card  shadow p-3 mb-5 bg-body rounded h-100  ">
-                        <div class="card-body text-center ">
+                        <div class="card-body text-center d-flex flex-column justify-content-between align-items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
                                 class="bi bi-rocket circle-icon" viewBox="0 0 16 16">
                                 <path d="M8 8c.828 0 1.5-.895 1.5-2S8.828 4 8 4s-1.5.895-1.5 2S7.172 8 8 8" />
@@ -119,7 +123,7 @@
                 </div>
                 <div class="col-3">
                     <div class="card  shadow p-3 mb-5 bg-body rounded h-100">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center d-flex flex-column justify-content-between align-items-center">
                             <img src="/tuwaiq-HW-Bootstrap/image/person.svg" alt="" class="circle-icon" height="60"
                                 width="60">
                             <h4>عدد المستفيدين من البرامج</h4>
@@ -131,7 +135,7 @@
                 </div>
                 <div class="col-3 ">
                     <div class="card shadow p-3 mb-5 bg-body rounded h-100 ">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center d-flex flex-column justify-content-between align-items-center">
                             <img src="/tuwaiq-HW-Bootstrap/image/person.svg" class="circle-icon" height="60" width="60"
                                 alt="">
                             <h4>منصة سطر</h4>
@@ -143,7 +147,7 @@
                 </div>
                 <div class="col-3">
                     <div class="card shadow p-3 mb-5 bg-body rounded h-100">
-                        <div class="card-body text-center">
+                        <div class="card-body text-center d-flex flex-column justify-content-between align-items-center">
                             <img src="/tuwaiq-HW-Bootstrap/image/person-add.svg" class="circle-icon" height="60"
                                 width="60">
                             <h4> عدد المسجلين في البرامج</h4>
@@ -155,7 +159,8 @@
                 </div>
 
             </div>
-            <button class="btn btn-dark">تقرير</button>
+            <button type="button" class="btn btn-primary ">إقرأ تقرير منجزات الأكاديمية</button>  
+
 
         </div>
         <div class="container bg-purble text-center" >
@@ -208,13 +213,14 @@
 
     </main>
     <footer>
-        <div class="container partner-bg">
+        <div class="container partner-bg text-center">
             <h2>الشركاء</h2>
             <section class="partner-content">
                 <div class="card-deck">
                 <div class="card">
-                    <img class="" src="/tuwaiq-HW-Bootstrap/image/apple-logo.png" alt="Card image cap">
-                    
+                    <div class="card-body">
+                    <img class="card-img" src="/tuwaiq-HW-Bootstrap/image/apple-logo.png" alt="apple-ogo">
+                </div>
                   </div>
                   <div class="card">
                     <img class="card-img img-size" src="/tuwaiq-HW-Bootstrap/image/Meta-Logo.png" alt="Card image cap">
@@ -232,7 +238,7 @@
         </section>
     </div>
     
-    <div class="container email-content ">
+    <div class="container email-content p-5">
        
             
             <form class="form-inline justify-content-center ">
@@ -251,7 +257,7 @@
               
               
     </div>
-    <div class="container footer-content  text-center ">
+    <div class="container footer-content  text-center p-4">
         <div class="row justify-content-between ">
         <div class="logo-tuwaiq-footer col-3">
             <img src="/tuwaiq-HW-Bootstrap/image/logo-navbar.png" width="152" height="65"alt="tuwaiq">

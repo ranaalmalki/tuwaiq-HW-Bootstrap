@@ -1,19 +1,37 @@
 
 *{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
 }
 
 .back{
     background-color: aquamarine;
+   
 }
-.position-relative{
+.container .position-relative{
+  
  background-color: rgba(0,0, 0, 0.4);
+}
+.position-relative video{
+   
+    align-items: center;
+}
+.btn-info{
+background-color: #4e3797;
 }
 .partner-bg{
     background-color: #f1f4f7;
 }
+.partner-bg h2{
+    color: #4e3797;
+}
+
 .nav-barlight a{
     color: #f1f4f7;
+}
+.nav-academy a{
+color: #4e3797;
 }
 .nav-barlight img{
     filter: brightness(0) invert(1)
@@ -29,6 +47,14 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50px;
     color: #ffff;
     margin-bottom: 50px;
+
+}
+.header-content button{
+    border: #54b9bc;
+    background-color: #54b9bc;
+    border-radius: 3rem;
+    font-size: 30px;
+    
 
 }
 
@@ -47,6 +73,18 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .background-light-blue{
     background-color:    #f1f4f7    ;
+
+}
+.button-color button{
+    background-color: #4e3797;
+    border-color: #4e3797;
+    border-radius: 1rem;
+    
+
+}
+.background-light-blue h3{
+    color: #4e3797;
+    font-weight: bold;
 }
 .circle-icon{
 background-color: #54b9bc  ;
@@ -110,11 +148,20 @@ border-radius: 1em;
 .card-deck .border-0{
     border-right: 10px solid #bbe4bf !important;
 }
+.card-deck .border-0 h5{
+    color: #bbe4bf;
+}
 .card-deck .border-1{
     border-right: 10px solid #8dd7da !important;
 }
+.card-deck .border-1 h5{
+color: #8dd7da;
+}
 .card-deck .border-2{
     border-right: 10px solid #8ad5d8 !important;
+}
+.card-deck .border-2 h5{
+color: #8ad5d8;
 }
 .img-color img{
     filter: invert(21%) sepia(34%) saturate(3200%) hue-rotate(235deg) brightness(96%) contrast(92%);}
@@ -130,4 +177,15 @@ border-radius: 1em;
     background-color: #4e3797;
     border-radius: 1rem;
     border-color: #4e3797;
+}
+.bg-white h1{ text-align: center;
+    color: #4e3797;
+
+}
+
+.bg-white button {
+    background-color: #4e3797;
+    border-radius: 1rem;
+    border-color:#4e3797;
+ 
 }
