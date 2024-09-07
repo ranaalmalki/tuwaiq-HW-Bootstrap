@@ -81,6 +81,12 @@ width: 10%;
     background-color: #5BBEC1;
 
 }
+.email-content .btn-primary{
+background-color: #4e3797;
+color: #f1f4f7;
+border-radius: 1em;
+
+}
 .footer-content{
     background-color: #4e3797;
     color: #f1f4f7;
