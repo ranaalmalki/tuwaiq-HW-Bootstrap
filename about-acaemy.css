@@ -33,12 +33,34 @@
 }
 .provid-content .card{
     border-radius: 1rem;
+    background-color: #f9fafb;
 }
 .bg-gray{
     background-color: #f3f8ff;
 }
 .global-competition{
     background-color: #f5f5f7;
+}
+.global-competition .card{
+    background-color: #fbfbfb;
+}
+.card-1{
+    color: #ff8181;
+}
+.card-2{
+    color: #ffdb5e;
+}
+.card-3{
+    color: #4d96ff;
+}
+.card-4{
+    color: #f5a664;
+}
+.card-5{
+    color: #a480ff;
+}
+.card-6{
+    color: #80d883;
 }
 /*End main section*/
 
